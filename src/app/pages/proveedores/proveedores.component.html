@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table table-bordered">
+    <thead class="text-center">
+      <th>ID</th>
+      <th>NOMBRE</th>
+      <th>TELÉFONO</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of lst">
+        <td>{{ item.id}}</td>
+        <td>{{ item.nombre}}</td>
+        <td>{{ item.tel}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
